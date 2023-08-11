@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Your GitHub Portfolio</title>
+</head>
+<body>
+  <header>
+    <h1>Your Name's Portfolio</h1>
+  </header>
+  <main>
+    <!-- Add your project cards here -->
+  </main>
+  <footer>
+    <p>&copy; 2023 Your Name</p>
+  </footer>
+</body>
+</html>
+Create a style.css file for styling your portfolio:
+
+css
+Copy code
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem;
+  max-width: 300px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+Add your project cards:
+Inside the <main> section of your index.html, you can add project cards. These cards can include project descriptions, images, links to the GitHub repositories, and any other information you want to showcase.
+
+Here's an example of a project card:
+
+html
+Copy code
+<div class="project-card">
+  <h2>Project Name</h2>
+  <p>Short project description.</p>
+  <a href="https://github.com/your-username/project-repo">GitHub Repository</a>
+</div>
+Commit and push your changes:
+
+Add your changes and commit them:
+sh
+Copy code
+git add .
+git commit -m "Added initial portfolio content"
+Push your changes to GitHub:
+sh
+Copy code
+git push origin main
+Enable GitHub Pages:
+
+Go to your repository on GitHub.
+Click on the "Settings" tab.
+Scroll down to the "GitHub Pages" section.
+Under "Source," select "main" branch (or your preferred branch) and save.
+Your portfolio should now be accessible at https://your-username.github.io/github-portfolio.
+
+Remember, this is just a simple example to get you started. You can enhance your portfolio by adding more styling, interactive features, and additional project details as needed. You could also consider using a static site generator like Jekyll, Hugo, or Gatsby for more advanced features and customization.
+
+
+
+
+
